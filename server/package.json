@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/server.js",
+    "build": "tsc"
   },
   "author": "aayush krishnan",
   "license": "ISC",
@@ -14,10 +15,7 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
-    "express": "^4.21.1"
-  },
-  "scripts": {
-  "start": "node dist/server.js",
-  "build": "tsc"
-}
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1"
+  }
 }
